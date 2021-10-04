@@ -37,7 +37,3 @@ Requis :
 - [ ] Teste toutes tes fonctionnalités
 - [ ] Publie-le sur GitHub en tant que `pull-request`
 - [ ] Envoie-nous le lien et dis-nous approximativement combien de temps vous avez passé sur ce travail.
-
-Nous t'encourageons à `refactorer` le code existant avant d'ajouter le tien, comme, tu le ferais s'il s'agissait d'une tâche réelle dans la vraie vie.
-
-`Commit` aussi souvent que possible pour faciliter la révision.
