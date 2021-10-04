@@ -1,25 +1,31 @@
 # Nalo Take-Home Test Specification
 
-Vous êtes un nouveau développeur dans l'équipe Nalo, et votre première tâche consiste à développer la nouvelle plateforme NFT de Nalo.
+Tu es un nouveau développeur dans l'équipe Nalo, et ta première tâche consiste à développer la nouvelle plateforme NFT de Nalo.
+On te laisse le goût du design.
+Nous te recommandons de consacrer entre 2 et 4 heures à cet exercice. (Faites-en plus si vous voulez 😇, faites-en moins si vous pensez avoir montré tout ce qu'il faut 😎).
 
-Nous vous recommandons de consacrer entre 2 heure et 4 heures à cet exercice. (Faites-en plus si vous voulez 😇, faites-en moins si vous pensez avoir montré ce que vous voulez tout ce qu'il faut😎).
-
-## System specifications
+## Spécifications
 
 Bonjour et bienvenue dans l'équipe.
-Nous sommes dans le futur, et Nalo a étendu ses activités en ouvrant une plateforme d'NFT.
-Votre tâchje consiste à développer la nouvelle plateforme de nalo en te basant sur la maquette en image "nft_plateform.webp".
+Nous sommes dans le futur, et Nalo a étendu ses activités en ouvrant une plateforme de NFT.
+Ta tâche consiste à développer la nouvelle plateforme de Nalo en te basant sur la maquette en image `nft_plateform.webp`.
+
 Et pour ce faire :
 
-- Vous trouverez une maquette en image `nft_platform.web` qui sera la page d'entrée de l'application et que vous devez développer
-- Vous trouverez aussi un fichier `data.json` qui vous servira de base de données des éléments qui seront affiché sur la page.
-- Nous vous laissons aussi le choix d'importer les images pour les NFTs et pour l'avatar des bestSellers. Et ceci dit, dans le fichier bestSellers, les seuls champs que vous pouvez modifier sont les champs `image` ( afin de mettre les images des NFTs ) et le `avatar` ( afin de mettre l'avatar des bestSellers).
-- On doit pouvoir cliquer sur un élément NTF ou le des bestSellers et aller sur une page de détails de l'élément. On te laisse le gout du design de cette page de details.
-- Sur une page de details d'un NFT, on doit pouvoir les informations sur l'NFT et aussi le profil de son Seller
-- sur une page de details d'un seller, on doit pouvoir voir tout les NFTs que le seller est entrain de vendre.
-- Vous pouvez d'utiliser une librairy de composant pour la partie style si vous le souhaitez.
-- Nous vous recommandons fortement d'écrire des tests pour vous aider durant ce processus.
-- Et tout dois être responsive.
+- Tu trouveras une maquette en image `nft_platform.web` qui sera la page d'entrée de l'application et que tu devras développer ;
+- Tu trouveras aussi un fichier `data.json` qui te servira de base de données des éléments affichés sur la page ;
+- Nous te laissons aussi le choix d'importer les images des NFTs et avatar des `bestSellers` ; 
+- Tu peux utiliser une librairie de composants pour la partie style si vous le souhaitez.
+- Nous te recommandons fortement d'écrire des tests pour vous aider durant ce processus.
+- Et tout doit être responsive.
+
+Requis :
+
+- Dans le fichier `bestSellers`, les seuls champs que vous pouvez modifier sont les champs `image` ( afin de mettre les images des NFTs ) et `avatar` ( afin de mettre l'avatar des bestSellers) ;
+- On doit pouvoir cliquer sur un élément NTF ou `bestSellers` et aller sur une page de détails de l'élément ;
+- Sur une page de details d'un NFT, on doit voir les informations sur le NFT et aussi le profil de son `Seller` ;
+- Sur une page de détails d'un `Seller`, on doit pouvoir voir tous les NFTs que le `Seller` est en train de vendre ;
+
 
 ## Instructions
 
