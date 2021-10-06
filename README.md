@@ -15,8 +15,8 @@ Et pour ce faire :
 - Tu trouveras une maquette en image `nft_platform.web` qui sera la page d'entrée de l'application et que tu devras développer ;
 - Tu trouveras aussi un fichier `data.json` qui te servira de base de données des éléments affichés sur la page ;
 - Nous te laissons aussi le choix d'importer les images des NFTs et avatar des `bestSellers` ; 
-- Tu peux utiliser une librairie de composants pour la partie style si vous le souhaitez.
-- Nous te recommandons fortement d'écrire des tests pour vous aider durant ce processus.
+- Tu peux utiliser une librairie de composants pour la partie style si tu le souhaites.
+- Nous te recommandons fortement d'écrire des tests pour t'aider durant ce processus.
 - Et tout doit être responsive.
 
 Requis :
