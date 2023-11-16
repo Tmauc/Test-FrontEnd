@@ -2,7 +2,7 @@
 
 Tu es un nouveau développeur dans l'équipe Nalo, et ta première tâche consiste à développer la nouvelle plateforme NFT de Nalo.
 On te laisse le goût du design.
-Nous te recommandons de consacrer entre 2 et 4 heures à cet exercice. (Faites-en plus si vous voulez 😇, faites-en moins si vous pensez avoir montré tout ce qu'il faut 😎).
+Nous te recommandons de consacrer entre 2 et 4 heures à cet exercice. (Fais-en plus si tu veux 😇, fais-en moins si tu penses avoir montré tout ce qu'il faut 😎).
 
 ## Spécifications
 
@@ -36,4 +36,4 @@ Requis :
 - [ ] Implémente les fonctionnalités requises
 - [ ] Teste toutes tes fonctionnalités
 - [ ] Publie-le sur GitHub en tant que `pull-request`
-- [ ] Envoie-nous le lien et dis-nous approximativement combien de temps vous avez passé sur ce travail.
+- [ ] Envoie-nous le lien et dis-nous approximativement combien de temps tu as passé sur ce travail.
