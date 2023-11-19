@@ -21,9 +21,9 @@ const BestSellerCard: React.FC<BestSellerCardProps> = ({
   return (
     <div
       onClick={() => handleClickSeller && handleClickSeller(name)}
-      className="shadow-[-10px_-10px_20px_#0b0b0b,10px_10px_20px_#0b0b0b] cursor-pointer p-4 rounded-lg flex items-center hover:scale-95 transition ease-in-out"
+      className="shadow-[-10px_-10px_20px_var(--shadow-color),10px_10px_20px_var(--shadow-color)] cursor-pointer p-4 rounded-lg flex items-center hover:scale-95 transition ease-in-out"
     >
-      <div className="text-l text-gray-300 mr-4">{formattedRank}</div>
+      <div className="text-l text-gray-400 mr-4">{formattedRank}</div>
       <div className="w-16 h-16 mr-4">
         <img
           src={avatar}

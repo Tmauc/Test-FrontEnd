@@ -34,14 +34,14 @@ const NFTCard: React.FC<NFTCardProps> = ({
     <div>
       <div
         onClick={handleOpenModal}
-        className="group p-4 rounded-lg shadow-[-10px_-10px_20px_#0b0b0b,10px_10px_20px_#0b0b0b] cursor-pointer"
+        className="group p-4 rounded-lg shadow-[-10px_-10px_20px_var(--shadow-color),10px_10px_20px_var(--shadow-color)] cursor-pointer"
       >
         <h3 className="text-lg font-bold mb-3 border-b pb-2 border-b-stone-600">
           {`${nft.name} ${nft.isHot ? "🔥" : ""}`}
         </h3>
         <div className="relative">
           <img
-            className="w-full h-full object-cover rounded-t-lg group-hover:mix-blend-difference"
+            className="w-full h-full object-cover rounded-t-lg group-hover:mix-blend-luminosity"
             src={nft.image}
             alt={nft.name}
           />

@@ -27,7 +27,7 @@ const NFTModal: React.FC<NFTModalProps> = ({
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
-      <div className="max-w-3xl w-1/3 bg-zinc-900 p-4 rounded-lg shadow-[-10px_-10px_20px_#0b0b0b,10px_10px_20px_#0b0b0b] transition duration-500 ease-in-out transform">
+      <div className="max-w-3xl w-3/4 md:lg:w-1/3 bg-[var(--bg-color)] p-4 rounded-lg shadow-[0px_0px_10px_var(--shadow-color),0px_0px_10px_var(--shadow-color)] transition duration-500 ease-in-out transform">
         <div className="flex justify-between mb-4">
           <button onClick={onClose} data-testid="close-button">
             <svg
@@ -41,12 +41,12 @@ const NFTModal: React.FC<NFTModalProps> = ({
           </button>
           <div className="">
             {nft.isHot && (
-              <span className="text-xs mr-2 font-bold p-1 rounded bg-red-500 text-white">
+              <span className="text-xs mr-2 font-bold p-1 rounded bg-red-500 text-white inline-block ">
                 HOT 🔥
               </span>
             )}
             {nft.timeLeft && (
-              <span className=" bg-amber-100 text-amber-800 text-xs font-bold py-1 px-2 rounded">
+              <span className=" bg-amber-100 text-amber-800 text-xs font-bold py-1 px-2 rounded inline-block ">
                 {nft.timeLeft}
                 <svg
                   fill="currentColor"
